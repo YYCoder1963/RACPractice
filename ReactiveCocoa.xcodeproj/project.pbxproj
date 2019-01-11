@@ -21,6 +21,12 @@
 		189B2DEC219C40CE0092BEE7 /* RACSignalDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B2DEB219C40CE0092BEE7 /* RACSignalDemo.m */; };
 		189B2DF5219C54410092BEE7 /* RAC_Timer_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B2DF3219C54410092BEE7 /* RAC_Timer_Demo.m */; };
 		189B2DF6219C54410092BEE7 /* RAC_Timer_Demo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B2DF4219C54410092BEE7 /* RAC_Timer_Demo.xib */; };
+		18AD652421E5DAED0019D0C2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD652221E5DAED0019D0C2 /* RegisterViewController.m */; };
+		18AD652521E5DAED0019D0C2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD652321E5DAED0019D0C2 /* RegisterViewController.xib */; };
+		18AD655521E72B860019D0C2 /* RGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD655321E72B860019D0C2 /* RGBViewController.m */; };
+		18AD655621E72B860019D0C2 /* RGBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD655421E72B860019D0C2 /* RGBViewController.xib */; };
+		18C1AC5721E89A91009707DB /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1AC5521E89A91009707DB /* ExampleViewController.m */; };
+		18C1AC5821E89A91009707DB /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C1AC5621E89A91009707DB /* ExampleViewController.xib */; };
 		DE5A8841ED11AC26D06B4116 /* libPods-ReactiveCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D375241F0B890ACD50DFEF /* libPods-ReactiveCocoaTests.a */; };
 		E9BD7A082FEA538A526B8855 /* libPods-ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC5EBEDBBFFC60D94972AD6 /* libPods-ReactiveCocoa.a */; };
 		FD05DDF32C98B5C9031F0888 /* libPods-ReactiveCocoaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950317FACA684E41F8CDE3BA /* libPods-ReactiveCocoaUITests.a */; };
@@ -73,6 +79,15 @@
 		189B2DF2219C54410092BEE7 /* RAC_Timer_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Timer_Demo.h; sourceTree = "<group>"; };
 		189B2DF3219C54410092BEE7 /* RAC_Timer_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_Timer_Demo.m; sourceTree = "<group>"; };
 		189B2DF4219C54410092BEE7 /* RAC_Timer_Demo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RAC_Timer_Demo.xib; sourceTree = "<group>"; };
+		18AD652121E5DAED0019D0C2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		18AD652221E5DAED0019D0C2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		18AD652321E5DAED0019D0C2 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		18AD655221E72B860019D0C2 /* RGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBViewController.h; sourceTree = "<group>"; };
+		18AD655321E72B860019D0C2 /* RGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBViewController.m; sourceTree = "<group>"; };
+		18AD655421E72B860019D0C2 /* RGBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RGBViewController.xib; sourceTree = "<group>"; };
+		18C1AC5421E89A91009707DB /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		18C1AC5521E89A91009707DB /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		18C1AC5621E89A91009707DB /* ExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
 		1EB85BE21E99B9013500D80F /* Pods-ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		786B4BB031F60FD90C35406E /* Pods-ReactiveCocoaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaUITests/Pods-ReactiveCocoaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		87034F68A939BEA70BB60AA6 /* Pods-ReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +150,9 @@
 		181E608A21957D0200261A47 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				18C1AC4B21E88197009707DB /* Example */,
+				18AD655121E72B5E0019D0C2 /* RGB */,
+				18AD651D21E5DAAF0019D0C2 /* Register */,
 				181E608B21957D0200261A47 /* AppDelegate.h */,
 				181E608C21957D0200261A47 /* AppDelegate.m */,
 				181E608E21957D0200261A47 /* ViewController.h */,
@@ -144,17 +162,6 @@
 				181E609621957D0200261A47 /* LaunchScreen.storyboard */,
 				181E609921957D0200261A47 /* Info.plist */,
 				181E609A21957D0200261A47 /* main.m */,
-				1817D55A21980E63009CEB0C /* Person.h */,
-				1817D55B21980E63009CEB0C /* Person.m */,
-				189B2DEA219C40CE0092BEE7 /* RACSignalDemo.h */,
-				189B2DEB219C40CE0092BEE7 /* RACSignalDemo.m */,
-				189B2DF2219C54410092BEE7 /* RAC_Timer_Demo.h */,
-				189B2DF3219C54410092BEE7 /* RAC_Timer_Demo.m */,
-				189B2DF4219C54410092BEE7 /* RAC_Timer_Demo.xib */,
-				18893B8D219BB08700730C66 /* RACCommandDemo.h */,
-				18893B8E219BB08700730C66 /* RACCommandDemo.m */,
-				181A0ADD219D4AA1007621BC /* RACSequenceAndTuple.h */,
-				181A0ADE219D4AA1007621BC /* RACSequenceAndTuple.m */,
 			);
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
@@ -175,6 +182,47 @@
 				181E60B121957D0200261A47 /* Info.plist */,
 			);
 			path = ReactiveCocoaUITests;
+			sourceTree = "<group>";
+		};
+		18AD651D21E5DAAF0019D0C2 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				18AD652121E5DAED0019D0C2 /* RegisterViewController.h */,
+				18AD652221E5DAED0019D0C2 /* RegisterViewController.m */,
+				18AD652321E5DAED0019D0C2 /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		18AD655121E72B5E0019D0C2 /* RGB */ = {
+			isa = PBXGroup;
+			children = (
+				18AD655221E72B860019D0C2 /* RGBViewController.h */,
+				18AD655321E72B860019D0C2 /* RGBViewController.m */,
+				18AD655421E72B860019D0C2 /* RGBViewController.xib */,
+			);
+			path = RGB;
+			sourceTree = "<group>";
+		};
+		18C1AC4B21E88197009707DB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1817D55A21980E63009CEB0C /* Person.h */,
+				1817D55B21980E63009CEB0C /* Person.m */,
+				189B2DEA219C40CE0092BEE7 /* RACSignalDemo.h */,
+				189B2DEB219C40CE0092BEE7 /* RACSignalDemo.m */,
+				189B2DF2219C54410092BEE7 /* RAC_Timer_Demo.h */,
+				189B2DF3219C54410092BEE7 /* RAC_Timer_Demo.m */,
+				189B2DF4219C54410092BEE7 /* RAC_Timer_Demo.xib */,
+				18893B8D219BB08700730C66 /* RACCommandDemo.h */,
+				18893B8E219BB08700730C66 /* RACCommandDemo.m */,
+				181A0ADD219D4AA1007621BC /* RACSequenceAndTuple.h */,
+				181A0ADE219D4AA1007621BC /* RACSequenceAndTuple.m */,
+				18C1AC5421E89A91009707DB /* ExampleViewController.h */,
+				18C1AC5521E89A91009707DB /* ExampleViewController.m */,
+				18C1AC5621E89A91009707DB /* ExampleViewController.xib */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 		39CFD7E66BFED0AA266C465D /* Pods */ = {
@@ -310,10 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD652521E5DAED0019D0C2 /* RegisterViewController.xib in Resources */,
 				181E609821957D0200261A47 /* LaunchScreen.storyboard in Resources */,
 				189B2DF6219C54410092BEE7 /* RAC_Timer_Demo.xib in Resources */,
 				181E609521957D0200261A47 /* Assets.xcassets in Resources */,
+				18AD655621E72B860019D0C2 /* RGBViewController.xib in Resources */,
 				181E609321957D0200261A47 /* Main.storyboard in Resources */,
+				18C1AC5821E89A91009707DB /* ExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +447,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				181E609021957D0200261A47 /* ViewController.m in Sources */,
+				18C1AC5721E89A91009707DB /* ExampleViewController.m in Sources */,
 				181E609B21957D0200261A47 /* main.m in Sources */,
+				18AD655521E72B860019D0C2 /* RGBViewController.m in Sources */,
 				18893B8F219BB08700730C66 /* RACCommandDemo.m in Sources */,
 				1817D55C21980E63009CEB0C /* Person.m in Sources */,
 				181A0ADF219D4AA1007621BC /* RACSequenceAndTuple.m in Sources */,
+				18AD652421E5DAED0019D0C2 /* RegisterViewController.m in Sources */,
 				181E608D21957D0200261A47 /* AppDelegate.m in Sources */,
 				189B2DF5219C54410092BEE7 /* RAC_Timer_Demo.m in Sources */,
 				189B2DEC219C40CE0092BEE7 /* RACSignalDemo.m in Sources */,

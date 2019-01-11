@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-/** <#title#>  */
+
 @property(nonatomic,copy)NSString *name;
+
 @end

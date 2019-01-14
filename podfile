@@ -6,7 +6,8 @@ target 'ReactiveCocoa' do
   # use_frameworks!
 
   # Pods for ReactiveCocoa
-  pod 'ReactiveObjC' 
+  pod 'ReactiveObjC'
+  pod 'Masonry'
   target 'ReactiveCocoaTests' do
     inherit! :search_paths
     # Pods for testing

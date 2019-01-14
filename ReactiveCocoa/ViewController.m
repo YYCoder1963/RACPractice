@@ -28,10 +28,11 @@ typedef void(^Block)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.dataArray = @[@"RegisterViewController",@"RGBViewController",@"ExampleViewController"];
+    self.dataArray = @[@"SignalOperationController",@"RegisterViewController",@"RGBViewController",@"ExampleViewController"];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.tableFooterView = [UIView new];
+    
 }
 
 

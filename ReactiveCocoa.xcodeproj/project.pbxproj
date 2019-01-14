@@ -17,6 +17,7 @@
 		181E609B21957D0200261A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E609A21957D0200261A47 /* main.m */; };
 		181E60A521957D0200261A47 /* ReactiveCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E60A421957D0200261A47 /* ReactiveCocoaTests.m */; };
 		181E60B021957D0200261A47 /* ReactiveCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E60AF21957D0200261A47 /* ReactiveCocoaUITests.m */; };
+		185E67BB21EC2C7C006C307F /* SignalOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E67BA21EC2C7C006C307F /* SignalOperationController.m */; };
 		18893B8F219BB08700730C66 /* RACCommandDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18893B8E219BB08700730C66 /* RACCommandDemo.m */; };
 		189B2DEC219C40CE0092BEE7 /* RACSignalDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B2DEB219C40CE0092BEE7 /* RACSignalDemo.m */; };
 		189B2DF5219C54410092BEE7 /* RAC_Timer_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B2DF3219C54410092BEE7 /* RAC_Timer_Demo.m */; };
@@ -72,6 +73,8 @@
 		181E60AB21957D0200261A47 /* ReactiveCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E60AF21957D0200261A47 /* ReactiveCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaUITests.m; sourceTree = "<group>"; };
 		181E60B121957D0200261A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185E67B921EC2C7C006C307F /* SignalOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalOperationController.h; sourceTree = "<group>"; };
+		185E67BA21EC2C7C006C307F /* SignalOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalOperationController.m; sourceTree = "<group>"; };
 		18893B8D219BB08700730C66 /* RACCommandDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommandDemo.h; sourceTree = "<group>"; };
 		18893B8E219BB08700730C66 /* RACCommandDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandDemo.m; sourceTree = "<group>"; };
 		189B2DEA219C40CE0092BEE7 /* RACSignalDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignalDemo.h; sourceTree = "<group>"; };
@@ -207,6 +210,8 @@
 		18C1AC4B21E88197009707DB /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				185E67B921EC2C7C006C307F /* SignalOperationController.h */,
+				185E67BA21EC2C7C006C307F /* SignalOperationController.m */,
 				1817D55A21980E63009CEB0C /* Person.h */,
 				1817D55B21980E63009CEB0C /* Person.m */,
 				189B2DEA219C40CE0092BEE7 /* RACSignalDemo.h */,
@@ -451,6 +456,7 @@
 				181E609B21957D0200261A47 /* main.m in Sources */,
 				18AD655521E72B860019D0C2 /* RGBViewController.m in Sources */,
 				18893B8F219BB08700730C66 /* RACCommandDemo.m in Sources */,
+				185E67BB21EC2C7C006C307F /* SignalOperationController.m in Sources */,
 				1817D55C21980E63009CEB0C /* Person.m in Sources */,
 				181A0ADF219D4AA1007621BC /* RACSequenceAndTuple.m in Sources */,
 				18AD652421E5DAED0019D0C2 /* RegisterViewController.m in Sources */,

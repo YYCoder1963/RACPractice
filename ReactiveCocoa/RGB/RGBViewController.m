@@ -67,7 +67,7 @@
     
     RACSignal *textSignal = textField.rac_textSignal;
     
-    return [sliderChannelTerminal merge:textFieldChannelTerminal];
+    return [[sliderChannelTerminal merge:textFieldChannelTerminal] merge:textSignal];
 }
 
 

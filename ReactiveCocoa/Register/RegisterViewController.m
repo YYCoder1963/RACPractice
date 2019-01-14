@@ -40,7 +40,7 @@
     
     RACSignal *enableSignal = [[RACSignal combineLatest:@[self.accountTextField.rac_textSignal,self.passwordTextField.rac_textSignal,self.confirmTextField.rac_textSignal]] map:^id _Nullable(RACTuple * _Nullable value) {
         @strongify(self);
-        return @([value[0] length] > 5 &&
+        return @([value[0] length] > 10 &&
                  [value[1] length] > 5 &&
                  [value[1] length] > 5 &&
         [self.passwordTextField.text isEqualToString:self.confirmTextField.text]);
